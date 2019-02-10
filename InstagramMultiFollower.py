@@ -11,7 +11,7 @@ browser.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
 time.sleep(20)
 
 browser.get('https://www.instagram.com/anime_official_instagram/')
-
+#you muse click the users followers Example shown in Readme#
 time.sleep(50)
 for _ in range(x):
     followButton = '/html/body/div[2]/div/div/div[2]/ul/div/li[' + str(y) + ']/div/div[2]/button'
